@@ -678,3 +678,8 @@ console.log(number1, numberType1);
 let number2 = 5;
 let numberType2 = (number2 % 2 === 0) ? "is EVEN" : "is ODD";
 console.log(number2, numberType2);
+
+//Example-4
+let numberIs = prompt("Enter a number : ");
+let numberType = (numberIs % 2 === 0) ? "is EVEN" : "is ODD";
+console.log(numberIs, numberType);
