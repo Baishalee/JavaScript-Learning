@@ -669,3 +669,12 @@
 // let myAge = 30;
 // let display = (myAge >= 18) ? "VOTE" : "CAN NOT VOTE";
 // console.log(display);
+
+//Example-3
+let number1 = 10;
+let numberType1 = (number1 % 2 === 0) ? "is EVEN" : "is ODD";
+console.log(number1, numberType1);
+
+let number2 = 5;
+let numberType2 = (number2 % 2 === 0) ? "is EVEN" : "is ODD";
+console.log(number2, numberType2);
