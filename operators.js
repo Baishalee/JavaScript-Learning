@@ -671,15 +671,36 @@
 // console.log(display);
 
 //Example-3
-let number1 = 10;
-let numberType1 = (number1 % 2 === 0) ? "is EVEN" : "is ODD";
-console.log(number1, numberType1);
+// let number1 = 10;
+// let numberType1 = (number1 % 2 === 0) ? "is EVEN" : "is ODD";
+// console.log(number1, numberType1);
 
-let number2 = 5;
-let numberType2 = (number2 % 2 === 0) ? "is EVEN" : "is ODD";
-console.log(number2, numberType2);
+// let number2 = 5;
+// let numberType2 = (number2 % 2 === 0) ? "is EVEN" : "is ODD";
+// console.log(number2, numberType2);
 
 //Example-4
-let numberIs = prompt("Enter a number : ");
-let numberType = (numberIs % 2 === 0) ? "is EVEN" : "is ODD";
-console.log(numberIs, numberType);
+// let numberIs = prompt("Enter a number : ");
+// let numberType = (numberIs % 2 === 0) ? "is EVEN" : "is ODD";
+// console.log(numberIs, numberType);
+
+//Switch Operator
+let devices = prompt("What he/she want : ");
+switch (devices) {
+    case "Fan" :
+        console.log ("Turn on the Fan");
+        break;
+    case "TV" :
+        console.log ("Turn on the TV");
+        break;
+    case "Tubelight" :
+        console.log ("Turn on the Tubelight");
+        break;
+    case "AC" :
+        console.log ("Turn on the AC");
+        break;
+    default :
+     console.log ("No Action Needed")
+      break;
+}
+console.log("Anything else..!?");
