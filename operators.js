@@ -685,22 +685,22 @@
 // console.log(numberIs, numberType);
 
 //Switch Operator
-let devices = prompt("What he/she want : ");
-switch (devices) {
-    case "Fan" :
-        console.log ("Turn on the Fan");
-        break;
-    case "TV" :
-        console.log ("Turn on the TV");
-        break;
-    case "Tubelight" :
-        console.log ("Turn on the Tubelight");
-        break;
-    case "AC" :
-        console.log ("Turn on the AC");
-        break;
-    default :
-     console.log ("No Action Needed")
-      break;
-}
-console.log("Anything else..!?");
+// let devices = prompt("What he/she want : ");
+// switch (devices) {
+//     case "Fan" :
+//         console.log ("Turn on the Fan");
+//         break;
+//     case "TV" :
+//         console.log ("Turn on the TV");
+//         break;
+//     case "Tubelight" :
+//         console.log ("Turn on the Tubelight");
+//         break;
+//     case "AC" :
+//         console.log ("Turn on the AC");
+//         break;
+//     default :
+//      console.log ("No Action Needed")
+//       break;
+// }
+// console.log("Anything else..!?");
