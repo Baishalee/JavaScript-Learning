@@ -91,3 +91,93 @@ c. Add Amazon at the end*/
 // console.log(companies);
 // companies.push("Amazon");
 // console.log(companies);
+
+//Array Methods --> FOR-EACH Loop
+// let arr = [1, 2, 3, 4, 5];
+
+// arr.forEach((val) => {
+// console.log(val);
+// });
+
+// let array = ["Delhi", "Pune", "Ooty"];
+// array.forEach((val, idx, arr) => {
+//     console.log(val.toUpperCase(), idx, arr);
+
+// });
+
+/* For a given array, print the square o each value usingthe forEach loop */
+// let nums = [2, 3, 4, 5];
+// nums.forEach((num) => {
+//     console.log(num * num);
+// });
+
+// Array Methods --> MAP
+// let numbers = [10, 20, 30];
+// let newarr = numbers.map((val) => {
+//     return val * 2;
+// });
+// console.log(newarr);
+
+// Array Methods --> Filter
+//Example-1 (all even elements)
+// let newArr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let evenArr = newArr.filter((val) => {
+//     return val % 2 === 0;
+// });
+// console.log(evenArr);
+
+//Example-2 (greater than 3)
+// let setValue = [1, 2, 3, 4, 5, 6, 7, 8];
+// let storeValue = setValue.filter((val) => {
+//     return val > 3;
+// });
+// console.log(storeValue);
+
+// Array Methods --> Reduce
+//Example-1 (add all elements in the array)
+// let reduceArr = [1, 2, 3, 4, 5];
+// const output = reduceArr.reduce((res, curr) => {
+//     return res + curr;
+// });
+// console.log(output);      // 1 + 2 + 3 + 4 + 5 = 15
+
+//Example-2 (find the largest number)
+// let largestArr = [20, 5, 6, 9, 15];
+// const result1 = largestArr.reduce((prev, curr) => {
+//     return prev > curr ? prev : curr;
+// });
+// console.log(result1);     //20
+
+//Example-2 (find the smallest number)
+// let smallestArr = [20, 5, 6, 9, 15];
+// const result2 = smallestArr.reduce((prev, curr) => {
+//     return prev < curr ? prev : curr;
+// });
+// console.log(result2);     //5
+
+/*We are given array of marks of students. Filter out the marks of students that scored 90+*/
+// let marks = [60, 75, 95, 85, 90, 92]
+// let toppers = marks.filter((val) => {
+//     return val > 90;
+// });
+// console.log(toppers);
+
+/*Take a number n as an input from user. Create an array of numbers from 1 to n.
+Use the reduce method to calculate sum of all numbers in the array.
+Use the reduce method to calculate product of all numbers in the array.*/
+// let n = prompt("Enter a number : ");
+// let arr = [];
+// for (let i=1; i<=n; i++){
+//     arr[i-1] = i;
+// }
+// console.log(arr);
+
+// let sum = arr.reduce((res, curr) => {
+//     return res + curr;
+// });
+// console.log("sum = ", sum);
+
+// let product = arr.reduce((res, curr) => {
+//     return res * curr;
+// });
+// console.log("product = ", product);
