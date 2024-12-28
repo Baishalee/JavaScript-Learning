@@ -42,3 +42,27 @@
 // }
 
 // console.log(findDuplicates([1, 2, 3, 4, 5, 3, 2, 6, 7, 2])); // [2, 3]
+
+// Function to check if a string is a palindrome
+// function isPalindrome(str) {
+//     // Remove non-alphanumeric characters and convert to lowercase
+//     const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+//     // Check if the cleaned string is the same as its reverse
+//     return cleanedStr === cleanedStr.split('').reverse().join('');
+// }
+
+// console.log(isPalindrome("abccba")); // true
+// console.log(isPalindrome("Madam")); // true
+// console.log(isPalindrome("Racecar")); // true
+// console.log(isPalindrome("Hello"));   // false
+
+// FOR LOOP to check if a string is a palindrome
+// let str = prompt("Enter a string : ");
+// let len = str.length;
+// for(let i = 0; i < len/2; i++){
+//     if(str[i] != str[len - 1 - i]){
+//         console.log("It's not a palindrome");
+//     } else{
+//         console.log("It's a palindrome");
+//     }
+// }
